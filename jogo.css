@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(193, 221, 245);
+    margin: 0;
+}
+
+.jogo {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    background-color: rgb(255, 251, 193);
+    display: block;
+}
+
+
+/* GAME OVER */
+
+#gameOver {
+    display: none;
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(253, 221, 226);
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+#gameOver h2 {
+    font-size: 30px;
+    color: rgb(193, 221, 245);
+}
+
+#gameOver button {
+    display: block;
+
+    margin: 15px auto;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    font-family: cursive;
+
+    font-size: 20px;
+
+    cursor: pointer;
+    color: rgb(255, 251, 193);
+}
+
+#gameOver button:hover {
+    transform: scale(1.05);
+}
+h4 {
+    color: rgb(193, 221, 245);
+    font-size: 20px;
+}
